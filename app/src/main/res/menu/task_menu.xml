@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="271dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="232dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <item
+        android:id="@+id/to_main"
+        android:title="Main Menu" />
+    <item
+        android:id="@+id/categories"
+        android:title="Categories" />
+    <item
+        android:id="@+id/create_task"
+        android:title="Create Task" />
+</menu>
